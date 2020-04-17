@@ -29,7 +29,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div>
+      <div align="center">
         <h2>Marks Average</h2>
         <p>Enter your marks and click on Find Average</p> 
         <form onSubmit={this.handleSubmit}>
