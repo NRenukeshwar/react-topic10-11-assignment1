@@ -40,7 +40,7 @@ class App extends Component {
     return (
       <div align="center">
         <h2>Student MarksList</h2>
-        <p>Enter your marks and click on Find Average</p>
+        <p>Enter subject marks and click on Find Average</p>
         <form onSubmit={this.handleSubmit}>
           <table>
             <tbody>
