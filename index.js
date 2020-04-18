@@ -57,7 +57,7 @@ class App extends Component {
                     onChange={event => {
                       this.handleChange(event);
                     }}
-                    autofocus="autofocus"
+                    autoFocus="autoFocus"
                     required
                   />
                 </td>
